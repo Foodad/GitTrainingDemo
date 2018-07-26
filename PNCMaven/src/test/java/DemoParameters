@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <parameter name= "username" value= "tomsmith"/>
+  <parameter name= "password" value= "SuperSecretPassword!"/>
+  
+    <classes>
+      <class name="testNGFeatures.DemoParameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
